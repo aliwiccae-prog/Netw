@@ -1,0 +1,72 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        direction: rtl;
+          text-align: center;
+            background: linear-gradient(135deg, #4a90e2, #357ABD);
+              min-height: 100vh;
+                display: flex;
+                  justify-content: center;
+                    align-items: center;
+                      padding: 20px;
+                        margin: 0;
+                          color: #fff;
+                          }
+
+                          form {
+                            background: #ffffffdd; /* أبيض شفاف */
+                              padding: 30px 40px;
+                                border-radius: 12px;
+                                  max-width: 400px;
+                                    width: 100%;
+                                      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+                                        color: #333;
+                                        }
+
+                                        h2 {
+                                          margin-bottom: 25px;
+                                            color: #0b3d91;
+                                              font-weight: 700;
+                                              }
+
+                                              input {
+                                                width: 100%;
+                                                  padding: 12px 15px;
+                                                    margin: 12px 0;
+                                                      border: 2px solid #357ABD;
+                                                        border-radius: 8px;
+                                                          font-size: 16px;
+                                                            transition: border-color 0.3s ease;
+                                                            }
+
+                                                            input:focus {
+                                                              border-color: #255eaa;
+                                                                outline: none;
+                                                                  box-shadow: 0 0 8px #255eaaaa;
+                                                                  }
+
+                                                                  button {
+                                                                    width: 100%;
+                                                                      padding: 14px 0;
+                                                                        background: #357ABD;
+                                                                          border: none;
+                                                                            border-radius: 8px;
+                                                                              color: white;
+                                                                                font-size: 18px;
+                                                                                  font-weight: 600;
+                                                                                    cursor: pointer;
+                                                                                      transition: background-color 0.3s ease;
+                                                                                        margin-top: 15px;
+                                                                                        }
+
+                                                                                        button:hover {
+                                                                                          background: #255eaa;
+                                                                                          }
+
+                                                                                          .error {
+                                                                                            margin-top: 10px;
+                                                                                              color: #d93025;
+                                                                                                font-weight: 600;
+                                                                                                  min-height: 20px;
+                                                                                                    text-align: center;
+                                                                                                    }
+}
